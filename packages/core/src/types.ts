@@ -74,6 +74,7 @@ export interface TLShape {
   children?: string[]
   handles?: Record<string, TLHandle>
   isGhost?: boolean
+  isCopied?: boolean
   isHidden?: boolean
   isLocked?: boolean
   isGenerated?: boolean
